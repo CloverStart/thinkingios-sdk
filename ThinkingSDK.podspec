@@ -34,4 +34,5 @@ Pod::Spec.new do |s|
     m.osx.dependency 'ThinkingSDK/OSX'
   end
 
+  s.resource_bundles = {'ThinkingSDK' => ['ThinkingSDK/Resources/**/*']}
 end
